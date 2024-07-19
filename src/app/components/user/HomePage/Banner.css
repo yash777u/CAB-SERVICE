@@ -1,0 +1,57 @@
+.bannerMiniContainer {
+    transform: translateY(-12rem);
+  }
+  
+  .cropped-image {
+    width: 100%;
+    height: 450px;
+    background-image: url('https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/hero-banner.webp');
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+  }
+  
+  .banner-options {
+    background-color: #f2f4f6;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 0px;
+  }
+  
+  .option-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+  }
+  
+  .option-item p {
+    margin-left: 10px;
+  }
+  
+  .searchOlaCabButton {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    margin-right: 20px;
+    background-color: #000; /* Adjust background color for better contrast */
+    border: none;
+    color: #fff;
+    border-radius: 12px;
+  }
+  
+  .searchOlaCabButton p {
+    margin: 0;
+  }
+  
+  .searchOlaCabButton span {
+    margin-right: 5px;
+  }
+  
+  .searchOlaCabButton .MuiSvgIcon-root {
+    font-size: 32px;
+  }
+  
